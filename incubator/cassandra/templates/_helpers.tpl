@@ -13,5 +13,5 @@ and Statefulset will append -xx at the end of name.
 */}}
 {{- define "cassandra.fullname" -}}
 {{- $name := default .Chart.Name .Values.nameOverride -}}
-{{- printf "%s-%s" .Release.Name $name | trunc 21 -}}
+{{- printf "%s" $name | trunc 21 -}}
 {{- end -}}
