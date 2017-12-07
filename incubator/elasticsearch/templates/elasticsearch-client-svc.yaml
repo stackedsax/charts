@@ -12,6 +12,9 @@ spec:
   ports:
     - port: 9200
       targetPort: http
+      name: http
+    - port: 9300
+      name: transport
   selector:
     app: {{ template "name" . }}
     component: "{{ .Values.client.name }}"
