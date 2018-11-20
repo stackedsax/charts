@@ -1,10 +1,6 @@
 dependencies:
-- condition: ""
-  enabled: false
-  import-values: null
-  name: kube-state-metrics
+- name: kube-state-metrics
   repository: https://kubernetes-charts.storage.googleapis.com/
-  tags: null
-  version: 0.3.1
-digest: sha256:3339ed3819a34195d47c7bc80388cff453156729436a6eb87b5c30f93f60f495
-generated: 2017-10-19T12:45:07.120139+03:00
+  version: 0.9.0
+digest: sha256:3375a4cf1bc5c4c4dea05d3a9592360b5ffac63ab8fec76c77d45df23194098e
+generated: 2018-09-11T23:58:12.463953326+02:00
